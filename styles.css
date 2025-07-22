@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  margin: 0;
+  padding: 0;
+}
+header {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+footer {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+#productos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.card {
+  min-width: 250px;
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+  background: #f4f4f4;
+}
+.reseñas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+.reseña {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  text-align: center;
+}
+.reseña-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+#carrito-lista {
+  min-height: 80px;
+}
+@media (max-width: 768px) {
+  #productos-lista {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reseñas-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  #contacto .container {
+    padding: 0 0.5rem;
+  }
+  form {
+    font-size: 0.95rem;
+  }
+} 
