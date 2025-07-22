@@ -1,6 +1,7 @@
-# EcommerceFinal
+# SerEstoico
 
-Este proyecto es una tienda e-commerce desarrollada como entrega final para un curso de desarrollo web. Incluye:
+Este proyecto es una tienda e-commerce desarrollada como entrega final para el curso de Frontend con JS y CSS. 
+Incluye:
 
 - Estructura HTML semántica (header, nav, main, section, footer)
 - Diseño responsivo con Bootstrap, Flexbox y Grid
@@ -16,15 +17,9 @@ Este proyecto es una tienda e-commerce desarrollada como entrega final para un c
 - El carrito se guarda en localStorage y muestra el total en tiempo real.
 - El formulario de contacto valida los campos y envía los datos a Formspree.
 
-## Despliegue en GitHub Pages
-1. Sube todos los archivos a un repositorio de GitHub.
-2. Ve a la configuración del repositorio y activa GitHub Pages desde la rama `main` o `master`.
-3. Elige la carpeta raíz (`/`) como fuente.
-4. Accede a la URL proporcionada por GitHub Pages para ver tu sitio en línea.
-
 ## Créditos
 - API de productos: [Fake Store API](https://fakestoreapi.com/)
 - Bootstrap, Google Fonts
 
----
-¡Listo para entregar y mostrar online! 
+## Agradecimientos
+- Saludos cordiales al duo M&M Matias y Maxi
